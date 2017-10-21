@@ -1,0 +1,52 @@
+Applications Memory Usage (kB):
+Uptime: 81077511 Realtime: 188396358
+
+** MEMINFO in pid 8185 [com.example.jeevan.weatherapp] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     5922     5908        0     1192     8392     6995     1396
+  Dalvik Heap     5854     5832        0    17040    30592    18878    11714
+ Dalvik Other      715      712        0       88                           
+        Stack      236      236        0        0                           
+       Ashmem        2        0        0        0                           
+      Gfx dev     2572     2572        0        0                           
+    Other dev        5        0        4        0                           
+     .so mmap      685      108      204     2748                           
+    .apk mmap      145        0        4        0                           
+    .ttf mmap      131        0       92        0                           
+    .dex mmap     2718     2568       76       32                           
+    .oat mmap     1186        0      264        4                           
+    .art mmap      903      712        4      120                           
+   Other mmap        9        8        0        0                           
+      Unknown      108      108        0      108                           
+        TOTAL    21191    18764      648    21332    38984    25873    13110
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     6548
+         Native Heap:     5908
+                Code:     3316
+               Stack:      236
+            Graphics:     2572
+       Private Other:      832
+              System:     1779
+ 
+               TOTAL:    21191      TOTAL SWAP (KB):    21332
+ 
+ Objects
+               Views:      140         ViewRootImpl:        2
+         AppContexts:        3           Activities:        1
+              Assets:        6        AssetManagers:        4
+       Local Binders:       11        Proxy Binders:       18
+       Parcel memory:        5         Parcel count:       23
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+ 
+ Asset Allocations
+    : 1K
